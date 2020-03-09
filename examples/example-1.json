@@ -1,0 +1,14 @@
+{
+  "title": "Example One",
+  "method": "POST",
+  "action": "https://postman-echo.com/post",
+  "sections": [
+    {
+      "title": "Personal Information",
+      "fields": {
+        "firstName": { "type": "text", "label": "First Name" },
+        "lastName": { "type": "text", "label": "Last Name" }
+      }
+    }
+  ]
+}

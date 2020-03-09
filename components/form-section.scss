@@ -1,0 +1,21 @@
+@import './base';
+
+.FormSection {
+  @include reset;
+  border: 1px solid #235b79;
+
+  &__Title {
+    @include reset;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: #235b79;
+    color: #64aad0;
+  }
+
+  &__Fields {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 200px));
+    grid-gap: 20px;
+  }
+}

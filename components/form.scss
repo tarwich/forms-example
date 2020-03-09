@@ -1,0 +1,40 @@
+@import './base';
+
+$border-radius: 5px;
+
+.FocusMinistryForm {
+  @include reset;
+  margin: 20px;
+  font-family: sans-serif;
+  color: #034569;
+
+  &__Title {
+    @include reset;
+    padding: 10px;
+    background: #64aad0;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+
+  &__Actions {
+    border-top: 1px solid #3c9dd0;
+    background: #64aad0;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    padding: 10px;
+    text-align: right;
+  }
+
+  button {
+    @include reset;
+    background: #086ca2;
+    color: white;
+    padding: 5px 10px;
+    border-radius: $border-radius;
+    cursor: pointer;
+
+    &:active {
+      background: #034569;
+    }
+  }
+}

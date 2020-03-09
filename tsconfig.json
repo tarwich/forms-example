@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "moduleResolution": "Node",
+    "target": "ES2019"
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "forms-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": {},
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-prettier": "github:tarwich/parcel-plugin-prettier",
+    "preact": "10.3.4",
+    "prettier": "1.19.1",
+    "sass": "1.26.3",
+    "typescript": "3.8.3"
+  },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 1 firefox versions",
+    "last 1 safari versions"
+  ]
+}

@@ -1,0 +1,9 @@
+.FormField {
+  display: grid;
+  // prettier-ignore
+  grid-template:
+    " top   " auto
+    " middle" 1fr
+    / 1fr
+  ;
+}
